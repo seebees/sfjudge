@@ -1,0 +1,199 @@
+<html>
+<head>
+<link href="sfjudge.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="header">
+<p style="font-size: 5px;">&nbsp;</p>
+<p>
+St. Joseph's Notre Dame<br/>2012 Oakland Diocese Scienc Fair<br/>February 25, 2012<br/>Alameda California
+</p>
+</div>
+<! category 'phys' named 'Physical Sciences' points: 100 [extra = ''] !>
+
+<img id="fatline" src="sfj-rubric-fatline.jpg" />
+
+<div class="section" id="chooser">
+<p style="font-size: 5px;">&nbsp;</p>
+<form name="category_phys" action="phys_select.asp" method="get" 
+style="margin-left: 5px; margin-top: 16px; ">
+Enter an exhibit number: 
+<input type="text" name="exhibit" size=5 />
+<input type="submit" name="Submit" />
+</form>
+</div>
+
+<img id="fatline" src="sfj-rubric-fatline.jpg" />
+
+<div class="submission" id="submission">
+<form name="category_phys" action="phys_action.asp" method="get" style="margin-left: 0px; margin-top: 0px; ">
+<div class="section" id="section0">
+<span class="category">Title</span>
+<span style="align: right">or Question</span>
+<table class="rbullet" id="s1" width=400px style="color:white;" >
+<colgroup>
+<col width=90% />
+<col width=5% />
+<col width=5% />
+</colgroup>
+<tr><td>No question or title</td><td>0</td><td><input type="radio" name="s1" value="0" /></td></tr>
+<tr><td>Topic unclear in title/question</td><td>1</td><td><input type="radio" name="s1" value="1" /></td></tr>
+<tr><td>Well defined question.  Title descriptive</td><td>2</td><td><input type="radio" name="s1" value="2" /></td></tr>
+</table>
+</div>
+
+<img id="fatline" src="sfj-rubric-fatline.jpg" />
+
+<div class="section" id="section1">
+<span class="category">Hypothesis</span>
+<span style="align: right">to Test by Procedure</span>
+<table class="rbullet" id="s2" width=400px style="color:white;" >
+<colgroup>
+<col width=90% />
+<col width=5% />
+<col width=5% />
+</colgroup>
+<tr><td>None shown (or demo only)</td><td>0</td><td><input type="radio" name="s2" value="0" /></td></tr>
+<tr><td>Incomplete</td><td>1</td><td><input type="radio" name="s2" value="1" /></td></tr>
+<tr><td>Limited procedure</td><td>2</td><td><input type="radio" name="s2" value="2" /></td></tr>
+<tr><td>Detailed, accounting for some variables</td><td>3</td><td><input type="radio" name="s2" value="3" /></td></tr>
+<tr><td>Detailed, accounting for most variables</td><td>4</td><td><input type="radio" name="s2" value="4" /></td></tr>
+<tr><td>...</td><td>5</td><td><input type="radio" name="s2" value="5" /></td></tr>
+<tr><td>Detailed, accounting for all variables</td><td>6</td><td><input type="radio" name="s2" value="6" /></td></tr>
+</table>
+</div>
+
+<img id="fatline" src="sfj-rubric-fatline.jpg" />
+
+<div class="section" id="section2">
+<span class="category">Data</span>
+<span style="align: right">Pictures, Graphs</span>
+<table class="rbullet" id="s3" width=400px style="color:white;" >
+<colgroup>
+<col width=90% />
+<col width=5% />
+<col width=5% />
+</colgroup>
+<tr><td>No data</td><td>0</td><td><input type="radio" name="s3" value="0" /></td></tr>
+<tr><td>Limited data, insufficient for valid conclusion</td><td>1</td><td><input type="radio" name="s3" value="1" /></td></tr>
+<tr><td>...</td><td>2</td><td><input type="radio" name="s3" value="2" /></td></tr>
+<tr><td>Recorded, displayed, hard to understand</td><td>3</td><td><input type="radio" name="s3" value="3" /></td></tr>
+<tr><td>...</td><td>4</td><td><input type="radio" name="s3" value="4" /></td></tr>
+<tr><td>...</td><td>5</td><td><input type="radio" name="s3" value="5" /></td></tr>
+<tr><td>Recorded, complete, easy to understand</td><td>6</td><td><input type="radio" name="s3" value="6" /></td></tr>
+</table>
+</div>
+
+<img id="fatline" src="sfj-rubric-fatline.jpg" />
+
+<div class="section" id="section3">
+<span class="category">Observations</span>
+<span style="align: right">and Findings</span>
+<table class="rbullet" id="s4" width=400px style="color:white;" >
+<colgroup>
+<col width=90% />
+<col width=5% />
+<col width=5% />
+</colgroup>
+<tr><td>None shown</td><td>0</td><td><input type="radio" name="s4" value="0" /></td></tr>
+<tr><td>...</td><td>1</td><td><input type="radio" name="s4" value="1" /></td></tr>
+<tr><td>Single observation or group</td><td>2</td><td><input type="radio" name="s4" value="2" /></td></tr>
+<tr><td>...</td><td>3</td><td><input type="radio" name="s4" value="3" /></td></tr>
+<tr><td>Multiple observations/groups of 2 trials</td><td>4</td><td><input type="radio" name="s4" value="4" /></td></tr>
+<tr><td>...</td><td>5</td><td><input type="radio" name="s4" value="5" /></td></tr>
+<tr><td>multiple observations, controls, 3+ trials</td><td>6</td><td><input type="radio" name="s4" value="6" /></td></tr>
+</table>
+</div>
+
+<img id="fatline" src="sfj-rubric-fatline.jpg" />
+
+<div class="section" id="section4">
+<span class="category">Conclusion</span>
+<span style="align: right">from Observations</span>
+<table class="rbullet" id="s5" width=400px style="color:white;" >
+<colgroup>
+<col width=90% />
+<col width=5% />
+<col width=5% />
+</colgroup>
+<tr><td>None</td><td>0</td><td><input type="radio" name="s5" value="0" /></td></tr>
+<tr><td>Doesn't relate to hypothesis or not supported by data</td><td>1</td><td><input type="radio" name="s5" value="1" /></td></tr>
+<tr><td>...</td><td>2</td><td><input type="radio" name="s5" value="2" /></td></tr>
+<tr><td>Addresses hypothesis.  Not well supported by data</td><td>3</td><td><input type="radio" name="s5" value="3" /></td></tr>
+<tr><td>...</td><td>4</td><td><input type="radio" name="s5" value="4" /></td></tr>
+<tr><td>Addresses hypothesis. Supported by data.</td><td>5</td><td><input type="radio" name="s5" value="5" /></td></tr>
+</table>
+</div>
+
+<img id="fatline" src="sfj-rubric-fatline.jpg" />
+
+<div class="section" id="section5">
+<span class="category">Writeup</span>
+<span style="align: right">Grammar and Organization</span>
+<table class="rbullet" id="s6" width=400px style="color:white;" >
+<colgroup>
+<col width=90% />
+<col width=5% />
+<col width=5% />
+</colgroup>
+<tr><td>...</td><td>0</td><td><input type="radio" name="s6" value="0" /></td></tr>
+<tr><td>Difficult to understand.  Many errors.</td><td>1</td><td><input type="radio" name="s6" value="1" /></td></tr>
+<tr><td>...</td><td>2</td><td><input type="radio" name="s6" value="2" /></td></tr>
+<tr><td>Understandable, ordinary effort</td><td>3</td><td><input type="radio" name="s6" value="3" /></td></tr>
+<tr><td>...</td><td>4</td><td><input type="radio" name="s6" value="4" /></td></tr>
+<tr><td>Very Clear, compelling effort</td><td>5</td><td><input type="radio" name="s6" value="5" /></td></tr>
+</table>
+</div>
+
+<img id="fatline" src="sfj-rubric-fatline.jpg" />
+
+<div class="section" id="section6">
+<span class="category">Exhibit</span>
+<span style="align: right">Presentation</span>
+<table class="rbullet" id="s7" width=400px style="color:white;" >
+<colgroup>
+<col width=90% />
+<col width=5% />
+<col width=5% />
+</colgroup>
+<tr><td>...</td><td>0</td><td><input type="radio" name="s7" value="0" /></td></tr>
+<tr><td>Unsatisfactory neatness AND display</td><td>1</td><td><input type="radio" name="s7" value="1" /></td></tr>
+<tr><td>Unsatisfacotry neatness OR  display</td><td>2</td><td><input type="radio" name="s7" value="2" /></td></tr>
+<tr><td>Satisfactory neatness and display</td><td>3</td><td><input type="radio" name="s7" value="3" /></td></tr>
+<tr><td>Neat, but could be better organized</td><td>4</td><td><input type="radio" name="s7" value="4" /></td></tr>
+<tr><td>Neat, well organized</td><td>5</td><td><input type="radio" name="s7" value="5" /></td></tr>
+</table>
+</div>
+
+<img id="fatline" src="sfj-rubric-fatline.jpg" />
+
+<div class="section" id="section7">
+<span class="category">Originality</span>
+<span style="align: right">of Project and Method</span>
+<table class="lbullet" id="s8" width=400px style="color:white;" >
+<colgroup>
+<col width=5% />
+<col width=5% />
+<col width=90% />
+</colgroup>
+<tr><td><input type="radio" name="s8" value="4" /></td><td>4</td><td>Typical project, typical way</td></tr>
+<tr><td><input type="radio" name="s8" value="5" /></td><td>5</td><td>...</td></tr>
+<tr><td><input type="radio" name="s8" value="6" /></td><td>6</td><td>...</td></tr>
+<tr><td><input type="radio" name="s8" value="7" /></td><td>7</td><td>Typical project, unique approach</td></tr>
+<tr><td><input type="radio" name="s8" value="8" /></td><td>8</td><td>...</td></tr>
+<tr><td><input type="radio" name="s8" value="9" /></td><td>9</td><td>very creative project, original, unique</td></tr>
+</table>
+</div>
+
+<img id="fatline" src="sfj-rubric-fatline.jpg" />
+
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="submit" value="<< Next" />
+<input type="submit" value="Submit" />
+<input type="submit" value="Exit" />
+<input type="submit" value="Next >>" />
+</form>
+</div>
+<! ...closure... !>
+</body>
+</html>

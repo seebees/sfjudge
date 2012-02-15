@@ -1,0 +1,125 @@
+body
+{
+	margin: 0px;
+	background-color: #000022;
+	background-image: url("sfj-rubric-background.jpg");
+	background-repeat: repeat-y;
+}
+
+#container
+{
+	color: #FFFFFF;
+}
+
+#header
+{
+	background-image: url("sfj-rubric-head.jpg"); 
+	background-repeat: no-repeat;
+	color: #FFFFFF; 
+	height: 1.0in;
+}
+
+#header p
+{
+	margin-left: 150px;
+	margin-top:  0px;
+}
+
+div.section
+{
+	margin-left: 15px;
+	margin-top:  5px;
+	font: 12px;
+	color: white;
+}
+
+#fatline
+{
+	margin-top: 10px;
+	width: 4.5in;
+}
+
+span.category
+{
+	font-size: 18px;
+	color: orange;
+	font-weight: bold;
+}
+
+span.rbullet
+{
+	color: white;
+	margin-left: 20px;
+}
+
+h1
+{
+	color:orange;
+	text-align: center;
+}
+
+p
+{ 
+/*	font-family:      Verdana, Arial, Helvetica, sans-serif; */
+	font-family:      Times New Roman, Times, serif;
+	font-size:        15px;
+	color:            #fedcba;
+}
+
+.redtext
+{
+	color:            #ff0000;
+}
+
+a:link
+{
+	color: #000099;
+	text-decoration: underline;
+}
+
+a:visited
+{
+	color: #666666;
+}
+
+a:hover
+{
+	text-decoration: none;
+	background-color: #CCCCCC;
+}
+
+a:active
+{
+	text-decoration: none;
+}
+
+.menu
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+.menu a:link
+{
+	color: #336600;
+	text-decoration: none;
+}
+
+.menu a:visited
+{
+	color: #666666;
+	text-decoration: none;
+}
+
+.menu a:hover
+{
+	color: #990000;
+	text-decoration: none;
+}
+
+.menu a:active
+{
+	color: #666666;
+	text-decoration: none;
+}

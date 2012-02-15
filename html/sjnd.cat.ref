@@ -1,0 +1,96 @@
+#
+#
+faire | St. Joseph's Notre Dame | 2012 Oakland Diocese Scienc Fair | February 25, 2012 | Alameda California
+
+category | phys | Physical Sciences | 100 |
+{
+	heading
+	fatline
+	scorebox
+	{
+		section | Title | or Question
+		{
+			rbullet | 0 | No question or title
+			rbullet | 1 | Topic unclear in title/question
+			rbullet | 2 | Well defined question.  Title descriptive
+		}
+		thinline
+		section | Hypothesis | to Test by Procedure
+		{
+			rbullet | 0 | None shown (or demo only)
+			rbullet | 1 | Incomplete
+			rbullet | 2 | Limited procedure
+			rbullet | 3 | Detailed, accounting for some variables
+			rbullet | 4 | Detailed, accounting for most variables
+			rbullet | 5 |  ...
+			rbullet | 6 | Detailed, accounting for all variables
+		}
+		thinline
+		section | Data | Pictures, Graphs
+		{
+			rbullet | 0 | No data
+			rbullet | 1 | Limited data, insufficient for valid conclusion
+			rbullet | 2 | ...
+			rbullet | 3 | Recorded, displayed, hard to understand
+			rbullet | 4 | ...
+			rbullet | 5 | ...
+			rbullet | 6 | Recorded, complete, easy to understand
+		}
+		thinline
+		section | Observations | and Findings
+		{
+			rbullet | 0 | None shown
+			rbullet | 1 | ...
+			rbullet | 2 | Single observation or group
+			rbullet | 3 | ...
+			rbullet | 4 | Multiple observations/groups of 2 trials
+			rbullet | 5 | ...
+			rbullet | 6 | multiple observations, controls, 3+ trials
+		}
+		thinline
+		section | Conclusion | from Observations 
+		{
+			rbullet | 0 | None
+			rbullet | 1 | Doesn't relate to hypothesis or not supported by data
+			rbullet | 2 | ...
+			rbullet | 3 | Addresses hypothesis.  Not well supported by data
+			rbullet | 4 | ...
+			rbullet | 5 | Addresses hypothesis. Supported by data.
+		}
+		thinline
+		section | Writeup | Grammar and Organization
+		{
+			rbullet | 0 | ...
+			rbullet | 1 | Difficult to understand.  Many errors.
+			rbullet | 2 | ...
+			rbullet | 3 | Understandable, ordinary effort
+			rbullet | 4 | ...
+			rbullet | 5 | Very Clear, compelling effort
+		}
+		thinline
+		section | Exhibit | Presentation
+		{
+			rbullet | 0 | ...
+			rbullet | 1 | Unsatisfactory neatness AND display
+			rbullet | 2 | Unsatisfacotry neatness OR  display
+			rbullet | 3 | Satisfactory neatness and display
+			rbullet | 4 | Neat, but could be better organized
+			rbullet | 5 | Neat, well organized
+		}
+		thinline
+		section | Originality | of Project and Method
+		{
+			lbullet | 4 | Typical project, typical way
+			lbullet | 5 | ...
+			lbullet | 6 | ...
+			lbullet | 7 | Typical project, unique approach
+			lbullet | 8 | ...
+			lbullet | 9 | very creative project, original, unique
+		}
+	}
+}
+
+category | bio  | Biological Group    | 100 | clone phys
+category | eng  | Engineering         | 100 | clone phys
+category | math | Math and Statistics | 100 | clone phys
+category | comp | Computer Science    | 100 | clone phys
