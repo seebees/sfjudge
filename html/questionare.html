@@ -1,5 +1,6 @@
 <html>
-<head>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <link href="sfjudge.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
@@ -177,7 +178,7 @@ Enter an exhibit number:
 <col width=90% />
 </colgroup>
 <tr><td><input type="radio" name="s8" value="4" /></td><td>4</td><td>Typical project, typical way</td></tr>
-<tr><td><input type="radio" name="s8" value="5" /></td><td>5</td><td>...</td></tr>
+<tr><td><input type="radio" id="special" name="s8" value="5" /></td><td>5</td><td>...</td></tr>
 <tr><td><input type="radio" name="s8" value="6" /></td><td>6</td><td>...</td></tr>
 <tr><td><input type="radio" name="s8" value="7" /></td><td>7</td><td>Typical project, unique approach</td></tr>
 <tr><td><input type="radio" name="s8" value="8" /></td><td>8</td><td>...</td></tr>
@@ -196,4 +197,22 @@ Enter an exhibit number:
 </div>
 <! ...closure... !>
 </body>
+<script>
+  // I put the script tag here at the end becuase it is better to
+  // load JS at the end.
+  // Since it should not affect the rendering.  That way the page
+  // seems to load faster ;)
+  // jquery is in the head to solve the is everything loaded
+  // problem
+
+  // jQuery api documentation
+  // http://docs.jquery.com/Main_Page
+
+  // simple use of selectors # == id, to get a value
+  alert($('#special').val())
+
+  // The . == class, so any child of id = secion1 that has
+  // a class == category
+  $('#section1 .category').append('Some Content')
+</script>
 </html>
